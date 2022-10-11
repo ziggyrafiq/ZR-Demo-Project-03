@@ -13,26 +13,26 @@
 
 **_[Still Need to Write Here ]_**
 
-### ZR.UI
+### ZR.Demo.Api
 
 **_[Still Need to Write Here ]_**
 
-### ZR.Business
+### ZR.Demo.Business
 
 **_[Still Need to Write Here ]_**
 
-### ZR.Infrastructure
+### ZR.Demo.Infrastructure
 
 **_[Still Need to Write Here ]_**
 
-### ZR.Infrastructure.Migrations
+### ZR.Demo.Infrastructure.Migrations
 
 **_[Still Need to Write Here ]_**
 
 ### Steps to Excute the Dev Build Project
 
 **_[Still Need to Write Here ]_**
-Add-Migration BuildDevDbWithDummyData -Project ZR.Infrastructure.Migrations
+Add-Migration BuildDevDbWithDummyData -Project ZR.Demo.Infrastructure.Migrations
 Update-Database
 
 ## Project on GitHub
