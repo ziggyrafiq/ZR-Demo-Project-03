@@ -10,6 +10,8 @@
 *  Version  :   0.0.1
 ************************************************************************************************************/
 using ZR.Demo.Repositories;
+using ZR.Demo.Services;
+using ZR.Demo.Services.Interfaces;
 
 namespace ZR.Demo.API.Extensions
 {
@@ -18,6 +20,9 @@ namespace ZR.Demo.API.Extensions
         public static void ConfigureRepositoryWrapper(this IServiceCollection services)
         {
             services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
+            
         }
+
+       
     }
 }

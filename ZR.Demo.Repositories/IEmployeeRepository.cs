@@ -18,8 +18,9 @@ using ZR.Demo.Domains;
 
 namespace ZR.Demo.Repositories
 {
-    
+
     public interface IEmployeeRepository : IRepositoryBase<Employee>
     {
+         
     }
 }

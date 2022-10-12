@@ -11,6 +11,8 @@
 ************************************************************************************************************/
 using Microsoft.Extensions.Configuration;
 using ZR.Demo.API.Extensions;
+using ZR.Demo.Services;
+using ZR.Demo.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,8 +20,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.ConfigureCors();
 builder.Services.ConfigureSqlDbEntitiesContext(builder.Configuration);
 builder.Services.ConfigureRepositoryWrapper();
-
+builder.Services.ConfigureDependencyForServices();
+builder.Services.ConfigureSwagger();
 builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

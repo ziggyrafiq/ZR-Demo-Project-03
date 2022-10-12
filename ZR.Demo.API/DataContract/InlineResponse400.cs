@@ -1,13 +1,22 @@
-﻿using Newtonsoft.Json;
+﻿/************************************************************************************************************
+*  COPYRIGHT BY ZIGGY RAFIQ (ZAHEER RAFIQ)
+*  LinkedIn Profile URL Address: https://www.linkedin.com/in/ziggyrafiq/ 
+*
+*  System   :  	ZR Demo Project 03 
+*  Date     :  	12th October 2022
+*  Author   :  	Ziggy Rafiq (https://www.ziggyrafiq.com)
+*  Notes    :  	
+*  Reminder :	PLEASE DO NOT CHANGE OR REMOVE AUTHOR NAME.
+*  Version  :   0.0.1
+************************************************************************************************************/
+using Newtonsoft.Json;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Xml.Linq;
 
 namespace ZR.Demo.API.DataContract
 {
-    /// <summary>
-    /// 
-    /// </summary>
+ 
     [DataContract]
     public partial class InlineResponse400 : IEquatable<InlineResponse400>
     {

@@ -27,10 +27,11 @@ namespace ZR.Demo.Repositories
             RepositoryContext = repositoryContext;
         }
 
-        public IQueryable<T> FindAll() => RepositoryContext.Set<T>().AsNoTracking();
+        public  IQueryable<T>  FindAll() => RepositoryContext.Set<T>().AsNoTracking();
+        public Task<IQueryable<T>> FindAllX() => Task.FromResult(RepositoryContext.Set<T>().AsNoTracking());
 
-        public IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression) =>
-            RepositoryContext.Set<T>().Where(expression).AsNoTracking();
+        public Task<IQueryable<T>> FindByCondition(Expression<Func<T, bool>> expression) =>
+            Task.FromResult(RepositoryContext.Set<T>().Where(expression).AsNoTracking());
 
         public void Create(T entity) => RepositoryContext.Set<T>().Add(entity);
 

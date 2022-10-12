@@ -22,3 +22,8 @@ E:\GitHub\ZR-Demo-Project-03\ZR.Demo.Services\obj\Debug\net6.0\ZR.Demo.Services.
 E:\GitHub\ZR-Demo-Project-03\ZR.Demo.Services\obj\Debug\net6.0\refint\ZR.Demo.Services.dll
 E:\GitHub\ZR-Demo-Project-03\ZR.Demo.Services\obj\Debug\net6.0\ZR.Demo.Services.pdb
 E:\GitHub\ZR-Demo-Project-03\ZR.Demo.Services\obj\Debug\net6.0\ref\ZR.Demo.Services.dll
+E:\GitHub\ZR-Demo-Project-03\ZR.Demo.Services\bin\Debug\net6.0\ZR.Demo.Domains.dll
+E:\GitHub\ZR-Demo-Project-03\ZR.Demo.Services\bin\Debug\net6.0\ZR.Demo.Repositories.dll
+E:\GitHub\ZR-Demo-Project-03\ZR.Demo.Services\bin\Debug\net6.0\ZR.Demo.Domains.pdb
+E:\GitHub\ZR-Demo-Project-03\ZR.Demo.Services\bin\Debug\net6.0\ZR.Demo.Repositories.pdb
+E:\GitHub\ZR-Demo-Project-03\ZR.Demo.Services\obj\Debug\net6.0\ZR.Demo.Services.csproj.CopyComplete

@@ -27,17 +27,6 @@ namespace ZR.Demo.API.Extensions
                options =>
                    options.UseSqlServer(
                        configuration.GetConnectionString("DevDbConnection")));
-
-           // IConfigurationRoot configuration = new ConfigurationBuilder()
-           // .SetBasePath(Directory.GetCurrentDirectory())
-           //.AddJsonFile("appsettings.json")
-           //.Build();
-            //    services.AddDbContext<DbEntities>(
-            //   options =>
-            //       options.UseSqlServer(
-            //           configuration.GetConnectionString("DevDbConnection"),
-            //          x => x.MigrationsAssembly("ZR.Infrastructure.Migrations")));
-            //}
         }
 
     }

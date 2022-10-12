@@ -32,7 +32,9 @@
 ### Steps to Excute the Dev Build Project
 
 **_[Still Need to Write Here ]_**
-Add-Migration BuildDevDbWithDummyData -Project ZR.Demo.Infrastructure.Migrations
+Add-Migration BuildDevDbWithDummyData -Project ZR.Demo.Repositories
+
+
 Update-Database
 
 ## Project on GitHub
